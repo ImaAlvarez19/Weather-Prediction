@@ -42,4 +42,7 @@ Tener en cuenta que todas las órbitas son circulares.
  - Ruby 2.60
  - Rails 5.2.3
  
+ ## API
+ - [Obtener predicción por día](https://github.com/ImaAlvarez19/Weather-Prediction/wiki/Weather-Prediction-API)
+ 
  

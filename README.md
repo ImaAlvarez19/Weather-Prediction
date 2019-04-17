@@ -1,6 +1,5 @@
 # Weather-Prediction
 
-## Problemática
 En una galaxia existen tres civilizaciones en sus respectivos planetas: Vulcanos, Ferengis y Betasoides.
 Dominan la predicción del clima mediante un complejo sistema informático.
 Cada planeta tiene las siguientes características:
@@ -35,14 +34,19 @@ Tener en cuenta que todas las órbitas son circulares.
  - El dia inicial es el dia 0 (cero).
  - En el caso que los planetas no cumplen con las condiciones de ninguna de las predicciones dadas, se asume que no hay ningun evento meteorológico y el sistema solar se encuentra en un estado "Normal".
  
- ## Tests
- Se implementaron los tests con la gema [Rspec](https://github.com/rspec/rspec-rails/) ejecutando el comando ```rspec```
- 
- ## Version
+  ## Requisitos
  - Ruby 2.60
  - Rails 5.2.3
  
+ ## Tests
+ - Se implementaron los tests con la gema [Rspec](https://github.com/rspec/rspec-rails/). Se ejecutan con el comando ```rspec```
+ - Ejemplo: ```rspec ./spec/services/strategies/rainy_prediction_spec.rb```
+ 
+ 
  ## API
  - [Obtener predicción por día](https://github.com/ImaAlvarez19/Weather-Prediction/wiki/Weather-Prediction-API)
+ 
+ ## Autor
+ Alvarez Imanol
  
  
